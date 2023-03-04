@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { NewComponent } from "./task1/NewComponent";
-import Maptask from "./task2tablemap/maptask";
-import Buttontask from "./task3button/buttontask";
-import UniversalButton from "./task3button/3universalbutton /universalbutton";
-
+import { NewComponent } from "./1week/task1/NewComponent";
+import Maptask from "./1week/task2tablemap/maptask";
+import Buttontask from "./1week/task3button/buttontask";
+import UniversalButton from "./1week/task3button/3universalbutton /universalbutton";
+import {Task4} from "./1week/task4usestate/task4";
 function App() {
-  const [students, setStudents] = useState([
+ /* const [students, setStudents] = useState([
     { id: 1, name: "James", age: 8 },
     { id: 2, name: "Robert", age: 18 },
     { id: 3, name: "John", age: 28 },
@@ -17,15 +17,16 @@ function App() {
     { id: 9, name: "Thomas", age: 88 },
     { id: 10, name: "Charles", age: 98 },
     { id: 11, name: "Christopher", age: 100 },
-  ]);
+  ]);*/
   // @ts-ignore
   // @ts-ignore
   return (
     <div>
-      {/*<NewComponent students={students} />
-      <Maptask />*/}
+      {/*<NewComponent students={students} />*/}
+      {/*<Maptask/>*/}
       {/*<Buttontask />*/}
-      <UniversalButton />
+      {/*<UniversalButton />*/}
+      <Task4/>
     </div>
   );
 }
