@@ -4,6 +4,7 @@ import Maptask from "./1week/task2tablemap/maptask";
 import Buttontask from "./1week/task3button/buttontask";
 import UniversalButton from "./1week/task3button/3universalbutton /universalbutton";
 import {Task4} from "./1week/task4usestate/task4";
+import {Task5} from "./1week/task5filter/task5filter";
 function App() {
  /* const [students, setStudents] = useState([
     { id: 1, name: "James", age: 8 },
@@ -26,7 +27,8 @@ function App() {
       {/*<Maptask/>*/}
       {/*<Buttontask />*/}
       {/*<UniversalButton />*/}
-      <Task4/>
+      {/*<Task4/>*/}
+        <Task5/>
     </div>
   );
 }
